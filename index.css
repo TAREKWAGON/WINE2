@@ -1,0 +1,14 @@
+/* ON COMMENCE AVEC LA PREMIeRE PAGE QU'ON APELLE (LANDING-P) */
+
+/* #1 NAVLIST */
+
+.nav-list ul {
+  list-style-type: none;
+  text-align: right;
+  padding: 30px 100px;
+}
+
+.nav-list li {
+  display: inline;
+  padding: 0px 40px;
+}
