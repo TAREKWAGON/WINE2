@@ -1,19 +1,121 @@
+/* SETUP */
+
+body, html {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6  {
+  font-family: 'Amiri', serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+
+
 /* ON COMMENCE AVEC LA PREMIeRE PAGE QU'ON APELLE (LANDING-P) */
+
+/* BACKGROUND */
+
+.landing-p {
+  background-image: url('https://images.unsplash.com/photo-1510824737382-5f31941bcb2d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3d414db32c9204c33ede7033c1440c79&auto=format&fit=crop&w=1050&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 130vh;
+}
+
+/* BACKGROUND */
 
 /* #1 NAVLIST */
 
 .nav-list ul {
   list-style-type: none;
   text-align: right;
-  padding: 30px 100px;
+  padding: 50px 100px;
+  margin: 0;
 }
 
 .nav-list li {
   display: inline;
-  padding: 0px 20px;
+  padding: 0px 10px;
+  color: rgb(197, 166, 0)
 }
 
 .nav-list .star {
-  font-size: 10px;
+  font-size: 20px;
 }
+
+/* #1 NAVLIST */
+
+/* #2 LOGO */
+
+.logo img {
+  width: 300px;
+  position: absolute;
+  top: 15px;
+  left: 150px;
+}
+
+/* #2 LOGO */
+
+/* #3 TITRE */
+
+.titre {
+  padding-left: 165px;
+  padding-top: 0px;
+  font-size: 40px;
+  color: rgb(80, 80, 80);
+  opacity: 0.8;
+  position: relative;
+}
+
+.titre img {
+  width: 100px;
+  position: absolute;
+  top: 95px;
+}
+
+.titre ._titre {
+  position: absolute;
+  top: 28px;
+  left: 275px;
+}
+
+.sous-titre {
+  padding-left: 165px;
+  color: rgb(201, 160, 73);
+  font-size: 17px;
+  font-weight: lighter;
+  font-style: italic;
+  text-shadow: -.4px 0 grey, 0 .4px grey, .4px 0 grey, 0 -.4px grey;
+}
+
+/* #3 TITRE */
+
+SECONDE PARTIE : LE CADRE JUXTAPOSÉ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
