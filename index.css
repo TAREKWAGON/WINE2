@@ -88,6 +88,7 @@ html, body {
 
 .sous-titre {
   padding-left: 165px;
+  padding-top: 10px;
   color: rgb(201, 160, 73);
   font-size: 17px;
   font-weight: lighter;
