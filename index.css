@@ -1,18 +1,17 @@
 /* SETUP */
 
 body, html {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif !important;
   overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6  {
-  font-family: 'Amiri', serif;
+  font-family: 'Amiri', serif !important;
 }
 
 html, body {
   margin: 0;
   padding: 0;
-
 }
 
 
@@ -26,7 +25,7 @@ html, body {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 130vh;
+  height: 140vh;
 }
 
 /* BACKGROUND */
@@ -67,28 +66,31 @@ html, body {
 
 .titre {
   padding-left: 165px;
-  padding-top: 0px;
-  font-size: 40px;
+  padding-top: 100px;
   color: rgb(80, 80, 80);
   opacity: 0.8;
   position: relative;
 }
 
+.titre h1 {
+  font-size: 80px !important;
+}
+
 .titre img {
-  width: 100px;
+  width: 85px;
   position: absolute;
-  top: 95px;
+  top: 175px;
 }
 
 .titre ._titre {
   position: absolute;
-  top: 28px;
-  left: 275px;
+  top: 168px;
+  left: 265px;
 }
 
 .sous-titre {
   padding-left: 165px;
-  padding-top: 10px;
+  padding-top: 80px;
   color: rgb(201, 160, 73);
   font-size: 17px;
   font-weight: lighter;
@@ -107,25 +109,138 @@ html, body {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: -300px;
+  margin-top: -200px;
 }
 
 .cadre p {
   width: 30%;
   text-align: center;
   position: absolute;
-  top: -83px;
+  top: 5px;
   left: 670px;
+}
+
+/* SECONDE PARTIE : LE CADRE JUXTAPOSÉ */
+
+/* TROISIEME PARTIE : LA BOUTEILLE */
+
+.titre-bottle h1 {
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(46, 56, 56);
+  font-size: 50px;
+}
+
+.titre-bottle h2 {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif ;
+  font-weight: lighter;
+  color: rgb(221, 213, 192);
+  padding-bottom: 160px;
+}
+
+.titre-year {
+  text-align: center;
+}
+
+.img-field img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 60%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text-bottle p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.button {
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  border: 1px solid grey;
+  padding-top: 10px;
+  border-radius: 25px;
+}
+
+.bouteille-img {
+  position: relative;
+}
+
+.bouteille-img img {
+  position: absolute;
+  width: 700px;
+  left: -155px;
+  top: -100px;
+}
+
+.avatar img {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+}
+
+.avatar h6 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.temoin img {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.temoin p {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.rating img {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.arrow ul li {
+  display: inline;
+}
+
+.arrow img {
+  width: 10%;
+}
+
+.arrow {
+  margin-left: 60px;
+}
+
+.arrow .mirror_arrow {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  margin-left: 100px;
 }
 
 
 
 
-/* SECONDE PARTIE : LE CADRE JUXTAPOSÉ */
 
 
 
-
+/* TROISIEME PARTIE : LA BOUTEILLE */
 
 
 
