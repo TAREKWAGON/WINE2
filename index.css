@@ -2,7 +2,6 @@
 
 body, html {
   font-family: 'Raleway', sans-serif !important;
-  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6  {
@@ -236,13 +235,21 @@ html, body {
 
 
 
-
-
-
-
 /* TROISIEME PARTIE : LA BOUTEILLE */
 
+/* QUATRIEME PARTIE : LE TEXT */
 
+.grid-text img {
+  width: 100vw;
+  padding-top: 50px;
+}
+
+.grid-text2 img {
+  width: 100vw;
+  margin-top: -20px;
+}
+
+/* QUATRIEME PARTIE : LE TEXT */
 
 
 
